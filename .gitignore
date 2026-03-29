@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+.mypy_cache/
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage
+*.cover
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files (large raw/processed datasets)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.parquet
+
+# Trained model binaries
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Environment / secrets
+.env
+*.env
+secrets.yaml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
